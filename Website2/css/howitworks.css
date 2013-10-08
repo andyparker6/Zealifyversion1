@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('http://zealify.com/wp-content/themes/jobengine-child/fonts/BEBAS___-webfont.eot');
+	src: url('http://zealify.com/wp-content/themes/jobengine-child/fonts/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('http://zealify.com/wp-content/themes/jobengine-child/fonts/BEBAS___-webfont.woff') format('woff'),
+	     url('http://zealify.com/wp-content/themes/jobengine-child/fonts/BEBAS___-webfont.ttf') format('truetype'),
+	     url('http://zealify.com/wp-content/themes/jobengine-child/fonts/BEBAS___-webfont.svg#webfont') format('svg');
+	font-style: normal;
+}
+
+@font-face {
+font-family:icomoon;
+src:url(http://zealify.com/wp-content/themes/jobengine-child/fonts/icomoon.eot?#iefix) format(embedded-opentype), url(http://zealify.com/wp-content/themes/jobengine-child/fonts/icomoon.woff) format(woff), url(http://zealify.com/wp-content/themes/jobengine-child/fonts/icomoon.ttf) format(truetype), url(http://zealify.com/wp-content/themes/jobengine-child/fonts/icomoon.svg#icomoon) format(svg);
+font-weight:400;
+font-style:normal;
+}
+
+.rocket,.bubbles,.star,.key,.home,.users,.calculate,.pencil,.bullhorn,.cloud,.heart,.contract,.credit {
+font-family:icomoon;
+speak:none;
+font-style:normal;
+font-weight:400;
+font-variant:normal;
+text-transform:none;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+}
+
+.rocket:before {
+content:"\e000";
+}
+
+.bubbles:before {
+content:"\e003";
+}
+
+.star:before {
+content:"\e004";
+}
+
+.key:before {
+content:"\e006";
+}
+
+.home:before {
+content:"\e007";
+}
+
+.users:before {
+content:"\e002";
+}
+
+.calculate:before {
+content:"\e001";
+}
+
+.pencil:before {
+content:"\e005";
+}
+
+.bullhorn:before {
+content:"\e008";
+}
+
+.cloud:before {
+content:"\e009";
+}
+
+.heart:before {
+content:"\e00a";
+}
+
+.contract:before {
+content:"\e00b";
+}
+
+.credit:before {
+content:"\e00c";
+}
+
+body {
+background-color:#ebebeb;
+word-spacing:1px;
+font-family:cabin, sans-serif;
+}
+
+h1 {
+text-align:center;
+font-family:cabin, sans-serif;
+font-size:2.5em;
+font-weight:400;
+margin:0;
+}
+
+h4 {
+font-size:1.25em;
+margin:25px 0 0;
+}
+
+h2,h3,h4,p {
+font-family:cabin, sans-serif;
+line-height:1.2em;
+}
+
+h2,h3,h4 {
+letter-spacing:1px;
+}
+
+h2,h3 {
+text-align:center;
+}
+
+h2,h4 {
+font-weight:700;
+}
+
+h3 {
+font-style:italic;
+font-weight:400;
+font-size:1.4em;
+margin-top:5px;
+}
+
+h2 {
+margin-top:25px;
+}
+
+p {
+font-size:1.1em;
+}
+
+a {
+color:#52bbce;
+}
+
+a:hover {
+text-decoration:none;
+color:#39a9bd;
+}
+
+.container {
+background-color:#fff;
+width:88%;
+margin:0 auto;
+}
+
+.narrow-container {
+width:84%;
+margin:0 auto;
+}
+
+.hr {
+background-image:url(../img/Social-icon-with-lines.png);
+background-repeat:no-repeat;
+background-position:center;
+width:100%;
+height:60px;
+margin:40px 0 30px;
+}
+
+.jumbotron {
+background-image:url(../img/howitworkhead.png);
+height:100%;
+background-repeat:no-repeat;
+width:100%;
+background-size:cover;
+background-position:center center;
+vertical-align:top;
+border-bottom:1px solid #000;
+padding-top:2%;
+}
+
+.icn {
+height:44px;
+width:44px;
+border-radius:22px;
+background-color:#52bbce;
+font-size:2em;
+color:#fff;
+float:left;
+text-align:center;
+background-position:50%;
+margin:0 10px 35px;
+}
+
+.head-box {
+width:25%;
+background-color:rgba(224,224,224,.7);
+box-shadow:1px 2px 0 0 rgba(0,0,0,0.2);
+margin:0 0 50px 12%;
+padding:15px 20px 15px 0;
+}
+
+.easy-recruitment-list {
+font-family:cabin, sans-serif;
+}
+
+.pencil,.cloud,.contract {
+margin-top:7px;
+}
+
+.contact-btn {
+text-align:center;
+margin-top:22px;
+}
+
+.contact-btn a {
+color:#fff;
+font-family:cabin, sans-serif;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+#btn-head {
+box-shadow:2px 2px 0 0 rgba(0,0,0,0.2);
+background-image:none;
+background-color:#52bbce;
+text-shadow:none;
+}
+
+#btn-head:hover {
+box-shadow:2px 2px 0 0 rgba(0,0,0,0.2);
+background-image:none;
+background-color:#39a9bd;
+border-radius:10px;
+color:#fff;
+text-shadow:none;
+}
+
+.zealify-features {
+margin:50px 0;
+}
+
+.zealify-features li {
+text-align:center;
+margin: 0 4%;
+float:left;
+max-width: 25%;
+}
+
+.icn2 {
+height:60px;
+width:60px;
+font-size:3em;
+color:#52bbce;
+margin:auto;
+}
+
+.title-icn {
+margin-top:0;
+}
+
+.img-screenshot {
+width:40%;
+float:left;
+box-shadow:2px 1px 1px 0 rgba(0,0,0,0.2);
+margin:0 0 0 50px;
+}
+
+.img-screenshot img {
+max-height:100%;
+max-width:100%;
+}
+
+.sme-textbox {
+width:45%;
+float:right;
+}
+
+.sme-textbox p {
+font-size:1.2em;
+line-height:1.4em;
+}
+
+.process-flow {
+background-image:url(../img/process.png);
+background-repeat:no-repeat;
+padding-top:75px;
+overflow:hidden;
+}
+
+.content-tile {
+margin:0 3px 0 55px;
+}
+
+.content-tile p {
+font-size:1em;
+}
+
+.process-content {
+margin-bottom:50px;
+}
+
+.price-bubble {
+height: 200px;
+width: 200px;
+border-radius: 200px;
+border: 4px solid #52bbce;
+text-align: center;
+margin: 30px auto 30px auto;
+}
+
+#price-large {
+color: #52bbce;
+font-size: 3em;
+}
+
+.cta {
+font-size:2em;
+font-style:italic;
+text-align:center;
+}
+
+.easy-recruitment-list ul,.zealify-features ul {
+list-style:none;
+}
+
+.breadcrumb {
+background-color:#ededed;
+}
+
+.wrapper {
+padding-bottom: 20px;
+}
